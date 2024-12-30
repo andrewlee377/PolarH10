@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/polar_h10/__init__.py
+src/polar_h10/data_logger.py
+src/polar_h10/polar_device.py
+src/polar_h10/visualization.py
+src/polar_h10_monitor.egg-info/PKG-INFO
+src/polar_h10_monitor.egg-info/SOURCES.txt
+src/polar_h10_monitor.egg-info/dependency_links.txt
+src/polar_h10_monitor.egg-info/requires.txt
+src/polar_h10_monitor.egg-info/top_level.txt
+tests/test_main.py

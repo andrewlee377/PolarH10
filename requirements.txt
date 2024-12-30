@@ -1,0 +1,7 @@
+# Initial project dependencies
+bleak>=0.21.1  # For BLE communication
+asyncio>=3.4.3  # For async operations
+pandas>=2.1.3   # For data handling
+matplotlib>=3.8.2  # For data visualization
+pytest>=7.4.3   # For testing
+numpy>=1.26.2   # For numerical operations

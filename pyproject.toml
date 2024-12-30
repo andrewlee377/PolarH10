@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polar-h10-monitor"
+version = "0.1.0"
+description = "A Python package for monitoring Polar H10 heart rate sensors via Bluetooth LE"
+readme = "README.md"
+authors = [{name = "andrewlee377"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "bleak>=0.20.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/polar-h10-monitor"
+Issues = "https://github.com/yourusername/polar-h10-monitor/issues"
+

@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: polar-h10-monitor
+Version: 0.1.0
+Summary: A Python package for monitoring Polar H10 heart rate sensors via Bluetooth LE
+Author: Aimee Slager
+Author-email: 
+License: MIT License
+        
+        Copyright (c) 2023 Aimee Slager
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+Project-URL: Homepage, https://github.com/yourusername/polar-h10-monitor
+Project-URL: Issues, https://github.com/yourusername/polar-h10-monitor/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bleak>=0.20.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: matplotlib>=3.7.0
+
+# Polar H10 Monitor
+
+A Python application for reading and processing data from the Polar H10 heart rate monitor.
+
+## Description
+This software interfaces with the Polar H10 heart rate monitor using Bluetooth Low Energy (BLE) to collect, process, and analyze heart rate data.
+
+## Features (Planned)
+- Real-time heart rate monitoring
+- ECG data collection
+- Data visualization
+- Data export capabilities
+- BLE device management
+
+## Prerequisites
+- Python 3.x
+- Bluetooth LE capable hardware
+- Polar H10 heart rate monitor
+
+## Installation
+Instructions will be added as development progresses.
+
+## Usage
+Documentation will be added as features are implemented.
+
+## Contributing
+Project is in initial development phase. Contribution guidelines will be added soon.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
